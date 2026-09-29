@@ -1,0 +1,77 @@
+/* Paleta alternativa: verde da marca como base, laranja da ceramica como destaque. */
+:root{
+  --green-950:#2f852b;
+  --green-900:#2f852b;
+  --green-850:#419b3b;
+  --green-700:#a84418;
+  --green-500:#4cae42;
+  --green-300:#ffd09a;
+  --ink:#242b23;
+  --muted:#5f685e;
+  --line:#dce7d9;
+  --orange:#b54d1b;
+  --orange-light:#ffd09a;
+}
+
+/* Superficies claras: texto escuro e laranja de boa leitura. */
+.site-header{box-shadow:0 1px 0 rgba(36,43,35,.1)}
+.main-nav a{color:var(--ink)}
+.main-nav a:hover,.footer-links a:hover{color:var(--orange)}
+.menu-toggle span{background:var(--ink)}
+.display-heading span{color:var(--orange)}
+.section-topline,.small-kicker{color:var(--orange)}
+.process-number,.benefit>span,.review-stars,.review-quote{color:var(--orange)}
+.review-avatar{color:var(--orange)}
+.google-wordmark{color:var(--ink)}
+.text-link{border-color:var(--orange)}
+.video-section{background:#eef7ec}
+.video-panel{background:var(--green-500);box-shadow:27px 30px 0 #d9ecd5}
+.video-shell{background:#1f271f}
+.video-status,.instagram-source{color:#fff}
+.video-play-indicator{color:var(--ink)}
+.video-credit{color:var(--orange)}
+
+/* O verde luminoso da logo aparece nas areas amplas; o lado do texto e
+   um tom da mesma familia com contraste suficiente para o branco. */
+.hero{background:linear-gradient(102deg,#2f852b 0%,#328a2e 56%,#4cae42 100%)}
+.hero h1 em,.solutions .display-heading span,.reviews-heading h2 em,
+.final-cta h2 em{color:var(--orange-light)}
+.hero-copy>p,.hero-footnote,.hero-vertical-label,.hero-bottom,
+.solutions-heading p,.reviews-heading p,.reviews-bottom{color:#fff}
+.hero-eyebrow,.hero-vertical-label span{color:#fff}
+.hero-eyebrow .eyebrow-line{background:var(--orange-light)}
+.hero-image-frame{background:var(--green-500)}
+.hero-image-frame:after{background:linear-gradient(0deg,rgba(21,34,19,.48),transparent 38%)}
+.button-light{color:var(--ink)}
+.button-light:hover{background:#fff1df;color:var(--orange)}
+.badge-dot{color:var(--orange)}
+.pulse-dot{background:var(--orange-light);box-shadow:0 0 0 5px rgba(255,208,154,.22)}
+
+.statement-strip{background:var(--green-500);color:#243222}
+.solutions{background:linear-gradient(125deg,#2f852b 0%,#368f32 64%,#4cae42 100%)}
+.section-topline-light{color:#fff}
+.solution-card{background:var(--green-850)}
+.solution-card:after{background:linear-gradient(0deg,rgba(21,29,19,.9),rgba(21,29,19,.05) 72%)}
+.solution-overlay>span:first-child{color:var(--orange-light)}
+.video-panel .live-dot{background:var(--orange-light)}
+
+.reviews-section{background:var(--green-900)}
+.reviews-sticky{background:radial-gradient(circle at 63% 65%,#4cae42 0%,#368f32 52%,#2f852b 100%)}
+.reviews-heading .eyebrow{color:#fff}
+.reviews-heading .eyebrow-line{background:var(--orange-light)}
+.reviews-rule i{background:var(--orange-light)}
+
+.about-image span{color:#243222}
+.final-cta{background:linear-gradient(100deg,#2f852b 0%,#368f32 60%,#4cae42 100%);color:#fff}
+.final-cta:after{border-color:rgba(255,255,255,.26)}
+.final-kicker{color:#fff}
+.site-footer{background:#f6f9f5}
+
+/* O atalho do WhatsApp segue a cor da marca em todos os estados. */
+.floating-whatsapp{box-shadow:0 12px 30px rgba(36,93,34,.28)}
+.floating-whatsapp:hover{background:#3e9e35;box-shadow:0 17px 36px rgba(36,93,34,.32)}
+.floating-whatsapp:focus-visible{outline-color:var(--orange)}
+
+@media(max-width:480px){
+  .video-panel{box-shadow:15px 17px 0 #d9ecd5}
+}
